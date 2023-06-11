@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6649FBCB2A34979C00F9E346 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6649FBCA2A34979C00F9E346 /* TaskModel.swift */; };
+		66AE66D42A3303BD00929187 /* SayahatAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AE66D32A3303BD00929187 /* SayahatAIApp.swift */; };
+		66AE66D62A3303BD00929187 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AE66D52A3303BD00929187 /* ContentView.swift */; };
+		66AE66D82A3303BF00929187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66AE66D72A3303BF00929187 /* Assets.xcassets */; };
+		66AE66DB2A3303BF00929187 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66AE66DA2A3303BF00929187 /* Preview Assets.xcassets */; };
+		66AE66DD2A3303BF00929187 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AE66DC2A3303BF00929187 /* Persistence.swift */; };
+		66AE66E02A3303BF00929187 /* SayahatAI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 66AE66DE2A3303BF00929187 /* SayahatAI.xcdatamodeld */; };
+		66AE66EA2A3303BF00929187 /* SayahatAITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AE66E92A3303BF00929187 /* SayahatAITests.swift */; };
+		66AE66F42A3303BF00929187 /* SayahatAIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AE66F32A3303BF00929187 /* SayahatAIUITests.swift */; };
+		66AE66F62A3303BF00929187 /* SayahatAIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AE66F52A3303BF00929187 /* SayahatAIUITestsLaunchTests.swift */; };
+		66AE67032A33042E00929187 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AE67022A33042E00929187 /* MainTabView.swift */; };
+		66AE67062A3304B100929187 /* Chat in Frameworks */ = {isa = PBXBuildFile; productRef = 66AE67052A3304B100929187 /* Chat */; };
+		66AE67082A3304FA00929187 /* ChatScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AE67072A3304FA00929187 /* ChatScreen.swift */; };
+		66AE670A2A33050A00929187 /* CalendarScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AE67092A33050A00929187 /* CalendarScreen.swift */; };
+		66AE670C2A33051A00929187 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AE670B2A33051A00929187 /* SettingsScreen.swift */; };
+		66AE670E2A33052F00929187 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AE670D2A33052F00929187 /* HomeScreen.swift */; };
+		66AE67162A33062800929187 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AE67152A33062800929187 /* Colors.swift */; };
+		66AE67182A33077400929187 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AE67172A33077400929187 /* ChatViewModel.swift */; };
+		66AE671A2A33196500929187 /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AE67192A33196400929187 /* CustomDatePicker.swift */; };
+		66AE671C2A331E1400929187 /* DateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AE671B2A331E1400929187 /* DateModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66AE66E62A3303BF00929187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66AE66C82A3303BD00929187 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66AE66CF2A3303BD00929187;
+			remoteInfo = SayahatAI;
+		};
+		66AE66F02A3303BF00929187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66AE66C82A3303BD00929187 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66AE66CF2A3303BD00929187;
+			remoteInfo = SayahatAI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6649FBCA2A34979C00F9E346 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		66AE66D02A3303BD00929187 /* SayahatAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SayahatAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66AE66D32A3303BD00929187 /* SayahatAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayahatAIApp.swift; sourceTree = "<group>"; };
+		66AE66D52A3303BD00929187 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		66AE66D72A3303BF00929187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66AE66DA2A3303BF00929187 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66AE66DC2A3303BF00929187 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		66AE66DF2A3303BF00929187 /* SayahatAI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SayahatAI.xcdatamodel; sourceTree = "<group>"; };
+		66AE66E52A3303BF00929187 /* SayahatAITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SayahatAITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66AE66E92A3303BF00929187 /* SayahatAITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayahatAITests.swift; sourceTree = "<group>"; };
+		66AE66EF2A3303BF00929187 /* SayahatAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SayahatAIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66AE66F32A3303BF00929187 /* SayahatAIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayahatAIUITests.swift; sourceTree = "<group>"; };
+		66AE66F52A3303BF00929187 /* SayahatAIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayahatAIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		66AE67022A33042E00929187 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		66AE67072A3304FA00929187 /* ChatScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatScreen.swift; sourceTree = "<group>"; };
+		66AE67092A33050A00929187 /* CalendarScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarScreen.swift; sourceTree = "<group>"; };
+		66AE670B2A33051A00929187 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		66AE670D2A33052F00929187 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		66AE67152A33062800929187 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		66AE67172A33077400929187 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		66AE67192A33196400929187 /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
+		66AE671B2A331E1400929187 /* DateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66AE66CD2A3303BD00929187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66AE67062A3304B100929187 /* Chat in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66AE66E22A3303BF00929187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66AE66EC2A3303BF00929187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66AE66C72A3303BD00929187 = {
+			isa = PBXGroup;
+			children = (
+				66AE66D22A3303BD00929187 /* SayahatAI */,
+				66AE66E82A3303BF00929187 /* SayahatAITests */,
+				66AE66F22A3303BF00929187 /* SayahatAIUITests */,
+				66AE66D12A3303BD00929187 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66AE66D12A3303BD00929187 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66AE66D02A3303BD00929187 /* SayahatAI.app */,
+				66AE66E52A3303BF00929187 /* SayahatAITests.xctest */,
+				66AE66EF2A3303BF00929187 /* SayahatAIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66AE66D22A3303BD00929187 /* SayahatAI */ = {
+			isa = PBXGroup;
+			children = (
+				66AE67142A33061300929187 /* Globals */,
+				66AE67132A3305CD00929187 /* Tab */,
+				66AE67122A3305B800929187 /* Account */,
+				66AE67112A3305A900929187 /* Home */,
+				66AE67102A33059700929187 /* Calendar */,
+				66AE670F2A33058B00929187 /* Chat */,
+				66AE66D32A3303BD00929187 /* SayahatAIApp.swift */,
+				66AE66D52A3303BD00929187 /* ContentView.swift */,
+				66AE66D72A3303BF00929187 /* Assets.xcassets */,
+				66AE66DC2A3303BF00929187 /* Persistence.swift */,
+				66AE66DE2A3303BF00929187 /* SayahatAI.xcdatamodeld */,
+				66AE66D92A3303BF00929187 /* Preview Content */,
+			);
+			path = SayahatAI;
+			sourceTree = "<group>";
+		};
+		66AE66D92A3303BF00929187 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				66AE66DA2A3303BF00929187 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		66AE66E82A3303BF00929187 /* SayahatAITests */ = {
+			isa = PBXGroup;
+			children = (
+				66AE66E92A3303BF00929187 /* SayahatAITests.swift */,
+			);
+			path = SayahatAITests;
+			sourceTree = "<group>";
+		};
+		66AE66F22A3303BF00929187 /* SayahatAIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66AE66F32A3303BF00929187 /* SayahatAIUITests.swift */,
+				66AE66F52A3303BF00929187 /* SayahatAIUITestsLaunchTests.swift */,
+			);
+			path = SayahatAIUITests;
+			sourceTree = "<group>";
+		};
+		66AE670F2A33058B00929187 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				66AE67072A3304FA00929187 /* ChatScreen.swift */,
+				66AE67172A33077400929187 /* ChatViewModel.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		66AE67102A33059700929187 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				66AE67092A33050A00929187 /* CalendarScreen.swift */,
+				66AE67192A33196400929187 /* CustomDatePicker.swift */,
+				6649FBCA2A34979C00F9E346 /* TaskModel.swift */,
+				66AE671B2A331E1400929187 /* DateModel.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		66AE67112A3305A900929187 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				66AE670D2A33052F00929187 /* HomeScreen.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		66AE67122A3305B800929187 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				66AE670B2A33051A00929187 /* SettingsScreen.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		66AE67132A3305CD00929187 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				66AE67022A33042E00929187 /* MainTabView.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		66AE67142A33061300929187 /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+				66AE67152A33062800929187 /* Colors.swift */,
+			);
+			path = Globals;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66AE66CF2A3303BD00929187 /* SayahatAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66AE66F92A3303BF00929187 /* Build configuration list for PBXNativeTarget "SayahatAI" */;
+			buildPhases = (
+				66AE66CC2A3303BD00929187 /* Sources */,
+				66AE66CD2A3303BD00929187 /* Frameworks */,
+				66AE66CE2A3303BD00929187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SayahatAI;
+			packageProductDependencies = (
+				66AE67052A3304B100929187 /* Chat */,
+			);
+			productName = SayahatAI;
+			productReference = 66AE66D02A3303BD00929187 /* SayahatAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66AE66E42A3303BF00929187 /* SayahatAITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66AE66FC2A3303BF00929187 /* Build configuration list for PBXNativeTarget "SayahatAITests" */;
+			buildPhases = (
+				66AE66E12A3303BF00929187 /* Sources */,
+				66AE66E22A3303BF00929187 /* Frameworks */,
+				66AE66E32A3303BF00929187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66AE66E72A3303BF00929187 /* PBXTargetDependency */,
+			);
+			name = SayahatAITests;
+			productName = SayahatAITests;
+			productReference = 66AE66E52A3303BF00929187 /* SayahatAITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66AE66EE2A3303BF00929187 /* SayahatAIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66AE66FF2A3303BF00929187 /* Build configuration list for PBXNativeTarget "SayahatAIUITests" */;
+			buildPhases = (
+				66AE66EB2A3303BF00929187 /* Sources */,
+				66AE66EC2A3303BF00929187 /* Frameworks */,
+				66AE66ED2A3303BF00929187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66AE66F12A3303BF00929187 /* PBXTargetDependency */,
+			);
+			name = SayahatAIUITests;
+			productName = SayahatAIUITests;
+			productReference = 66AE66EF2A3303BF00929187 /* SayahatAIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66AE66C82A3303BD00929187 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					66AE66CF2A3303BD00929187 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					66AE66E42A3303BF00929187 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 66AE66CF2A3303BD00929187;
+					};
+					66AE66EE2A3303BF00929187 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 66AE66CF2A3303BD00929187;
+					};
+				};
+			};
+			buildConfigurationList = 66AE66CB2A3303BD00929187 /* Build configuration list for PBXProject "SayahatAI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66AE66C72A3303BD00929187;
+			packageReferences = (
+				66AE67042A3304B100929187 /* XCRemoteSwiftPackageReference "Chat" */,
+			);
+			productRefGroup = 66AE66D12A3303BD00929187 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66AE66CF2A3303BD00929187 /* SayahatAI */,
+				66AE66E42A3303BF00929187 /* SayahatAITests */,
+				66AE66EE2A3303BF00929187 /* SayahatAIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66AE66CE2A3303BD00929187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66AE66DB2A3303BF00929187 /* Preview Assets.xcassets in Resources */,
+				66AE66D82A3303BF00929187 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66AE66E32A3303BF00929187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66AE66ED2A3303BF00929187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66AE66CC2A3303BD00929187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66AE670C2A33051A00929187 /* SettingsScreen.swift in Sources */,
+				66AE67162A33062800929187 /* Colors.swift in Sources */,
+				66AE66DD2A3303BF00929187 /* Persistence.swift in Sources */,
+				66AE671C2A331E1400929187 /* DateModel.swift in Sources */,
+				66AE67082A3304FA00929187 /* ChatScreen.swift in Sources */,
+				66AE66D62A3303BD00929187 /* ContentView.swift in Sources */,
+				6649FBCB2A34979C00F9E346 /* TaskModel.swift in Sources */,
+				66AE66D42A3303BD00929187 /* SayahatAIApp.swift in Sources */,
+				66AE66E02A3303BF00929187 /* SayahatAI.xcdatamodeld in Sources */,
+				66AE670E2A33052F00929187 /* HomeScreen.swift in Sources */,
+				66AE671A2A33196500929187 /* CustomDatePicker.swift in Sources */,
+				66AE670A2A33050A00929187 /* CalendarScreen.swift in Sources */,
+				66AE67182A33077400929187 /* ChatViewModel.swift in Sources */,
+				66AE67032A33042E00929187 /* MainTabView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66AE66E12A3303BF00929187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66AE66EA2A3303BF00929187 /* SayahatAITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66AE66EB2A3303BF00929187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66AE66F62A3303BF00929187 /* SayahatAIUITestsLaunchTests.swift in Sources */,
+				66AE66F42A3303BF00929187 /* SayahatAIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66AE66E72A3303BF00929187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66AE66CF2A3303BD00929187 /* SayahatAI */;
+			targetProxy = 66AE66E62A3303BF00929187 /* PBXContainerItemProxy */;
+		};
+		66AE66F12A3303BF00929187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66AE66CF2A3303BD00929187 /* SayahatAI */;
+			targetProxy = 66AE66F02A3303BF00929187 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		66AE66F72A3303BF00929187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66AE66F82A3303BF00929187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66AE66FA2A3303BF00929187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SayahatAI/Preview Content\"";
+				DEVELOPMENT_TEAM = QHNXY85LKN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xdyeama.SayahatAI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66AE66FB2A3303BF00929187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SayahatAI/Preview Content\"";
+				DEVELOPMENT_TEAM = QHNXY85LKN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xdyeama.SayahatAI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		66AE66FD2A3303BF00929187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QHNXY85LKN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xdyeama.SayahatAITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SayahatAI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SayahatAI";
+			};
+			name = Debug;
+		};
+		66AE66FE2A3303BF00929187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QHNXY85LKN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xdyeama.SayahatAITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SayahatAI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SayahatAI";
+			};
+			name = Release;
+		};
+		66AE67002A3303BF00929187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QHNXY85LKN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xdyeama.SayahatAIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SayahatAI;
+			};
+			name = Debug;
+		};
+		66AE67012A3303BF00929187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QHNXY85LKN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xdyeama.SayahatAIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SayahatAI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66AE66CB2A3303BD00929187 /* Build configuration list for PBXProject "SayahatAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66AE66F72A3303BF00929187 /* Debug */,
+				66AE66F82A3303BF00929187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66AE66F92A3303BF00929187 /* Build configuration list for PBXNativeTarget "SayahatAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66AE66FA2A3303BF00929187 /* Debug */,
+				66AE66FB2A3303BF00929187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66AE66FC2A3303BF00929187 /* Build configuration list for PBXNativeTarget "SayahatAITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66AE66FD2A3303BF00929187 /* Debug */,
+				66AE66FE2A3303BF00929187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66AE66FF2A3303BF00929187 /* Build configuration list for PBXNativeTarget "SayahatAIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66AE67002A3303BF00929187 /* Debug */,
+				66AE67012A3303BF00929187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		66AE67042A3304B100929187 /* XCRemoteSwiftPackageReference "Chat" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/Chat";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		66AE67052A3304B100929187 /* Chat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66AE67042A3304B100929187 /* XCRemoteSwiftPackageReference "Chat" */;
+			productName = Chat;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		66AE66DE2A3303BF00929187 /* SayahatAI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				66AE66DF2A3303BF00929187 /* SayahatAI.xcdatamodel */,
+			);
+			currentVersion = 66AE66DF2A3303BF00929187 /* SayahatAI.xcdatamodel */;
+			path = SayahatAI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 66AE66C82A3303BD00929187 /* Project object */;
+}
